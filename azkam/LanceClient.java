@@ -15,7 +15,7 @@ public class LanceClient {
       System.setSecurityManager(new RMISecurityManager());
     }
     try {
-      Remote r = Naming.lookup("rmi://localhost/TestRMI");
+      Remote r = Naming.lookup("rmi://192.168.1.12/TestRMI");
       //System.out.println(r);
       //if(r instanceof DataServImpl){
 
