@@ -1,0 +1,1 @@
+java -Djava.security.policy=ma_policy_serveur azkam
